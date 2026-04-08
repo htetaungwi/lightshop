@@ -11,7 +11,7 @@ import Nightlamp from "./Pages/Nightlamp"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lightshop/">
       {<Header />}
       <Routes>
         <Route path="/" element={<Home />} />
