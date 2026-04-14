@@ -21,7 +21,7 @@ function Home() {
             to="/shops"
             className="border-2 border-black rounded-full px-4 py-2 hover:bg-sky-400"
           >
-            Show All Products &#129026;
+            Show All Products
           </Link>
         </div>
         <div className="flex justify-center items-center gap-4 flex-wrap m-6 flex-col md:grid md:grid-cols-2 lg:grid-cols-3">

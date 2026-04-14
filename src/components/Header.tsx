@@ -84,9 +84,9 @@ function Header() {
       {/* Mobile Menu  start*/}
 
       <div
-        className={`fixed z-50 bg-white top-14 h-fit inset-0 transform ${isOpen ? "translate-x-0" : "-translate-x-full"} duration-400 ease-in-out lg:hidden`}
+        className={`fixed z-50 bg-gray-400 top-14 min-h-fit inset-0  transform ${isOpen ? "translate-x-0" : "-translate-x-full"} duration-400 ease-in-out lg:hidden`}
       >
-        <div className="flex flex-col border-2  border-black text-xl  h-full m-4 justify-left items-center rounded-2xl">
+        <div className="flex flex-col border-2  border-black text-xl  h-full m-4  justify-left items-center rounded-2xl">
           <Link
             to="/"
             className="border-b-2 border-black hover:text-sky-400 w-full text-left p-2"

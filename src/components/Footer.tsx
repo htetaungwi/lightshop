@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="mt-20 ">
+    <footer className="mt-20 md:fixed md:bottom-0 md:w-full">
       
       
         <div className=" bg-sky-600 py-2 text-sm  text-center lg:text-xl text-white  flex flex-col justify-center items-center">
